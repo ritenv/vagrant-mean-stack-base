@@ -24,3 +24,6 @@ Vagrant dev environment scaffold for MEAN stack apps
     * Application Server IP = 192.168.1.11
     * MogoDb Server IP = 192.168.1.12
 
+## More Info
+	* Apps are installed via Puppet
+	* All modules are installed from npm
