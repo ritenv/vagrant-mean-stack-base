@@ -13,14 +13,17 @@ Vagrant dev environment scaffold for MEAN stack apps
 * Launch server from folder `/usr/local/src/mean/mean-app` with command `node app.js`
 * Browse to [Express Server](http://192.168.1.12:3000/) and the Express initial page will fire up
 
+## Environment
+	* Ubuntu 64-bit (precise)
+	
 ## Loaded With Needed Tools
 	* Nodejs v0.10.26
 	* Express (ensured 3.5.1)
-	* Jade (present from npm)
-	* Mongoose (present from npm)
-	* Bower (present from npm)
-	* Jasmine (present from npm)
-	* NodeUnit (present from npm)
+	* Jade (present version from npm)
+	* Mongoose (present version from npm)
+	* Bower (present version from npm)
+	* Jasmine (present version from npm)
+	* NodeUnit (present version from npm)
     * Application Server IP = 192.168.1.11
     * MongoDb Server IP = 192.168.1.12
 
