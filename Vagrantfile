@@ -28,6 +28,7 @@ Vagrant::Config.run do |config|
 	end
 
 	config.vm.define :meanserver do |meanserver|
+		# choose the ubuntu 64 bit version as your VM Box
 		meanserver.vm.box = "ubuntu_precise64"
 		meanserver.vm.box_url = "http://files.vagrantup.com/precise64.box"
 		meanserver.vm.network :hostonly, "192.168.1.12"
