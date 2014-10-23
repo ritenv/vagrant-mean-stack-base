@@ -15,7 +15,7 @@ Vagrant dev environment scaffold for MEAN stack apps
 
 ## Environment
 	* Ubuntu 64-bit (precise)
-	
+
 ## Loaded With Needed Tools
 	* Nodejs v0.10.26
 	* Express (ensured 3.5.1)
@@ -29,4 +29,4 @@ Vagrant dev environment scaffold for MEAN stack apps
 
 ## More Info
 	* Apps are installed via Puppet
-	* All modules are installed from npm
+	* The modules directory is entirely managed by librarian-puppet
